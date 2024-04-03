@@ -1,13 +1,11 @@
 import './App.css'
-import ScrollToSection from './scroll-section.jsx'
-import ScrollToTopAndBottom from './scroll-from-top-to-bottom.jsx'
+import ScrollToTopAndBottom from './Components/scroll-to-top-and-bottom'
 
 function App() {
 
   return (
     <>
       <ScrollToTopAndBottom />
-      <ScrollToSection />
     </>
   )
 }
